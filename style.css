@@ -75,21 +75,45 @@ img {
 
 @media screen and (max-width: 419px){
 
+  .row{
+    width: 400px;
+  }
+
   #lezioni{
-    text-align: left;
+    text-align: center;
   }
 
   #lezioni .row > .left{
     width: 100%;
-    text-align: center;
   }
-/* lavorare qua */
+
   #lezioni .row img{
-    margin:0;
+    margin:auto;
   }
 
   #lezioni .row > .right{
     width: 100%;
-    text-align: center;
+  }
+
+  #steps{
+    font-size: 12px;
+  }
+
+  #steps .row > .left{
+    width: 30%;
+  }
+
+  #steps .row > .central{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #steps .row > .right{
+    width: 30%;
+  }
+
+  #steps .row img{
+    height: auto;
   }
 }
