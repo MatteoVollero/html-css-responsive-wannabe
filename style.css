@@ -90,6 +90,7 @@ img {
 
   #lezioni .row img{
     margin:auto;
+    height: 100px;
   }
 
   #lezioni .row > .right{
