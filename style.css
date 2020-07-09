@@ -122,4 +122,8 @@ img {
   .first, .second, .third{
     font-size: 12px;
   }
+
+  .first img , .second img , .third img{
+    height: 100px;
+  }
 }
