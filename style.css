@@ -85,6 +85,7 @@ img {
 
   #lezioni .row > .left{
     width: 100%;
+    font-size: 12px;
   }
 
   #lezioni .row img{
@@ -93,6 +94,7 @@ img {
 
   #lezioni .row > .right{
     width: 100%;
+    font-size: 12px;
   }
 
   #steps{
@@ -115,5 +117,9 @@ img {
 
   #steps .row img{
     height: auto;
+  }
+
+  .first, .second, .third{
+    font-size: 12px;
   }
 }
